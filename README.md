@@ -18,17 +18,3 @@ SearchByStudentNumber & SearchByStudentName: Fast lookups in the respective inde
 
 🛠️ Technical Details
 The system uses a primary Student structure that holds the actual data, while two separate index structures (StudentNumberLL and StudentNameLL) point to this single source of truth using pointers (addr).
-
-💻 How to Run
-Clone the repository:
-
-Bash
-git clone https://github.com/kayrahansarnic00/student-indexing-system.git
-Compile the source code:
-
-Bash
-gcc Project1.c -o student_system
-Run the executable:
-
-Bash
-./student_system
